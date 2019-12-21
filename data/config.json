@@ -1,0 +1,3 @@
+{
+  "plugins": ["wordpress-seo --version=12.6", "all-in-one-seo-pack"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wordpress-e2e-testing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node scripts/start",
+    "stop": "docker-compose down -v",
+    "export": "ts-node scripts/export"
+  },
+  "license": "MIT",
+  "prettier": {},
+  "devDependencies": {
+    "@types/child-process-promise": "^2.2.1",
+    "child-process-promise": "^2.2.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4",
+    "wait-on": "^3.3.0"
+  }
+}
